@@ -117,7 +117,7 @@ if(rezult < 55 && rezult >= 40)
   
     document.getElementById("out_rez1").textContent = "Додаткове вивчення умов ";
 
-    if( rezult < 40)
+    if( rezult < 40 )
   
         document.getElementById("out_rez1").textContent = "Відмовити";
     
