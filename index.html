@@ -44,25 +44,25 @@ Do not copy form HTML to your site. Use the Embed Code.
 <table class="inline_grid choices">
     <tr >
         <td align="right">
-        <label class="question top_question" for="RESULT_TextField-1">Вік позичальника&nbsp;</b></label>
+        <label class="question top_question" for="RESULT_TextField-1">Вік позичальника (років)&nbsp;</b></label>
         <input type="text" name="RESULT_TextField-1" class="text_field" id="RESULT_TextField-1" size="5
         " value="0">
         
         </td>
     </tr>
         <tr><td
-             align="right"> <label class="question top_question" for="RESULT_TextField-1">Сума кредиту&nbsp;</b></label>
+             align="right"> <label class="question top_question" for="RESULT_TextField-1">Сума кредиту (грн.)&nbsp;</b></label>
             <input type="text" name="RESULT_TextField-1" class="text_field" id="RESULT_TextField-2" size="5
             " value="0">
             </td></tr>
         
             <tr><td align="right">
-                <label class="question top_question" for="RESULT_TextField-1">Термін кредиту&nbsp;</b></label>
+                <label class="question top_question" for="RESULT_TextField-1">Термін кредиту (місяців)&nbsp;</b></label>
                 <input type="text" name="RESULT_TextField-1" class="text_field" id="RESULT_TextField-3" size="5
                 " value="0">
                 </td></tr>
                 <tr><td align="right">
-                    <label class="question top_question" for="RESULT_TextField-1">Відсоток за кредитом&nbsp;</b></label>
+                    <label class="question top_question" for="RESULT_TextField-1">Відсоток за кредитом (% річних)&nbsp;</b></label>
                     <input type="text" name="RESULT_TextField-1" class="text_field" id="RESULT_TextField-4" size="5" value="0">
                     </td></tr>
                     <tr><td align="right">
@@ -83,7 +83,7 @@ Do not copy form HTML to your site. Use the Embed Code.
 <tr><td><input  type="checkbox" name="RESULT_CheckBox-4" class="multiple_choice" id="RESULT_CheckBox-4_1" value="CheckBox-1"><label for="RESULT_CheckBox-4_1">Наявність нерухомості у членів сім'ї</label></td></tr>
 <tr><td align="right">
     
-    <label class="question top_question" for="RESULT_TextField-1">Сума заставного майна&nbsp;</b></label>
+    <label class="question top_question" for="RESULT_TextField-1">Сума заставного майна (грн.)&nbsp;</b></label>
     <input type="text" name="RESULT_TextField-1" class="text_field" id="RESULT_TextField-7" size="5" value="0">
     </td></tr>
 <tr><td><input type="checkbox" name="RESULT_CheckBox-4" class="multiple_choice" id="RESULT_CheckBox-4_2" value="CheckBox-2"><label for="RESULT_CheckBox-4_2">Наявність проблемних кредитів</label></td></tr>
@@ -91,13 +91,13 @@ Do not copy form HTML to your site. Use the Embed Code.
 <tr><td><input type="checkbox" name="RESULT_CheckBox-4" class="multiple_choice" id="RESULT_CheckBox-4_3" value="CheckBox-3"><label for="RESULT_CheckBox-4_3">Відсутність попередніх кредитів</label></td></tr>
 <tr><td align="right">
                            
-    <label class="question top_question" for="RESULT_TextField-1">Місячний дохід позичальника&nbsp;</b></label>
+    <label class="question top_question" for="RESULT_TextField-1">Місячний дохід позичальника (грн.)&nbsp;</b></label>
     <input type="text" name="RESULT_TextField-1" class="text_field" id="RESULT_TextField-8" size="5
     " value="0">
     </td></tr>
     <tr><td align="right">
                            
-        <label class="question top_question" for="RESULT_TextField-1">місячний дохід сім'ї&nbsp;</b></label>
+        <label class="question top_question" for="RESULT_TextField-1">Місячний дохід сім'ї (грн.)&nbsp;</b></label>
         <input type="text" name="RESULT_TextField-1" class="text_field" id="RESULT_TextField-9" size="5
         " value="0">
         </td></tr>
@@ -107,10 +107,16 @@ Do not copy form HTML to your site. Use the Embed Code.
 
 </table>
 <button onclick = "test()">Розрахувати</button>
+<p>Ваш результат 
+    <span  id="out_rez"> 
 
-<div id="out_rez">
+    </span>
+    <span  id="out_rez1"> 
 
-</div>
+    </span>
+   
+</p>
+
 
 </div>
 
